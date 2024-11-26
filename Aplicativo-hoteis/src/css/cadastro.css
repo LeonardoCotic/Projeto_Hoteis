@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/img-index/body2.jfif);
+    background-size: cover;
+}
+
+.bloco-cadastro{
+    margin-top: 3vh;
+    background-color: black;
+    height: auto;
+    width: 50vh;
+    padding-left: 5vh;
+    box-shadow: 3px 3px 3px white;
+}
+.logo{
+   margin-left: 12vh;
+    font-size: 25px;
+    margin-top: 2vh;
+    color: white;
+}
+span{
+    color: red;
+}
+h1{
+    color: red;
+    font-size: 25px;
+    text-decoration: underline;
+}
+h4{
+    color: red;
+    font-size: 20px;padding-bottom: 0.5vh;
+}
+input{
+    width: 45vh;
+    height: 3vh;
+    padding-left: 1vh;
+    color: white;
+    background-color: rgb(16, 2, 2);
+    box-shadow: 4px 4px 4px  rgb(55, 7, 7);
+    border: none;
+}
+.cidade{
+    width: 15vh;
+    margin-right: 5vh;
+}
+.botao{
+    width: 15vh;
+    height: 4vh;
+    border-radius: 5px;
+    margin-left: 15vh;
+    margin-bottom: 3vh;
+    box-shadow: 1px 1px 1px white;
+}
+select{
+    height: 3vh;
+    color: red;
+    background-color: rgb(55, 7, 7);
+    border: none;
+    
+}
+.botao{
+    color: red;
+    font-size: 15px;
+    background-color: rgb(55, 7, 7);
+}
+@media screen and (max-width:1030px){
+    .cidade{
+        margin-right: 15vh;
+    }
+    .logo{
+        margin-left: 8vh;
+    }
+}
+@media screen and (max-width:850px){
+    .cidade{
+        margin-right: 15vh;
+    }
+}
+@media screen and (max-width:650px){
+    input{
+        width: 35vh;
+    }
+    .bloco-cadastro{
+        width: 40vh;
+    }
+    .logo{
+        margin-left: 7vh;
+        
+    }
+    .botao{
+        margin-left: 10vh;
+    }
+    .cidade{
+       margin-right: 3vh; 
+    }
+}
+
+@media screen and (max-width:550px){
+    h1{
+        font-size: 21px;
+    }
+    input{
+        width: 30vh;
+    }
+    .cidade{
+        margin-left: 1vh;
+    }
+    .bloco-cadastro{
+        width: 37vh;
+    }
+    .logo{
+        margin-left: 3vh;
+    }
+}
+@media screen and (max-width:500px){
+    h1{
+        font-size: 18px;
+    }
+    input{
+        width: 27vh;
+    }
+    .cidade{
+        margin-left: 1vh;
+    }
+    .bloco-cadastro{
+        width: 30vh;
+        padding-left: 2vh;
+    }
+    .botao{
+        margin-left: 5vh;
+    }
+    .logo{
+        margin-left: 7vh;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:390px){
+    h1{
+        font-size: 15px;
+    }
+    input{
+        width: 22vh;
+    }
+    .cidade{
+        margin-left: 1vh;
+        margin-bottom: 1vh;
+    }
+    .bloco-cadastro{
+        min-width: 25vh;
+        padding-left: 2vh;
+    }
+    .botao{
+        margin-left: 5vh;
+    }
+    .logo{
+        margin-left: 5vh;
+    }
+}
+
